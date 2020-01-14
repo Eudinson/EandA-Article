@@ -1,0 +1,118 @@
+
+
+.default-img-size{
+    height: 160px;
+}
+
+
+.my-jumbotron{
+    margin: 0%;
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.align-center{
+    margin-top: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.my-background{
+    background-image: url('../imgs/ea.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 170px;
+    padding: 100px 0 40px 0;
+}
+
+h6, h5{
+    color: white;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-title{
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.bg-1:hover .overlay,
+.bg-2:hover .overlay,
+.bg-3:hover .overlay,
+.bg-4:hover .overlay{
+    transition: .8s;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .5;
+    visibility: visible;
+}
+
+
+.icon{
+    height: 70px;
+}
+
+
+.bg-1{
+    background-image: url('../imgs/forget.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bg-2{
+    background-image: url('../imgs/time.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-3{
+    background-image: url('../imgs/perfect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-4{
+    background-image: url('../imgs/discipline.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#eudin-link{
+    color: lightblue;
+}
